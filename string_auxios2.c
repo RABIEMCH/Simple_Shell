@@ -69,10 +69,8 @@ int cmp_chars(char str[], const char *delim)
  */
 char *_strtok(char str[], const char *delim)
 {
-	static char *my_spliter, *end_string;
-	
-	char *strat_string;
-	
+	static char *my_spliter, *end_string;	
+	char *strat_string;	
 	unsigned int i, bool;
 
 	if (str != NULL)

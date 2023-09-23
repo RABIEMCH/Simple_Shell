@@ -47,8 +47,7 @@ char *aux_itoa(int n)
 	else
 		n1 = n;
 	lenght--;
-	do
-	{
+	do	{
 		*(my_bfr + lenght) = (n1 % 10) + '0';
 		n1 = n1 / 10;
 		lenght--;
